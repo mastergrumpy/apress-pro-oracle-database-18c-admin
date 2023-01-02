@@ -1,0 +1,12 @@
+db_name=o18c
+db_block_size=8192
+memory_target=300M
+memory_max_target=300M
+processes=200 
+control_files=(/u01/dbfile/o18c/control01.ctl,/u02/dbfile/o18c/control02.ctl) 
+job_queue_processes=10
+open_cursors=500 
+fast_start_mttr_target=500 
+undo_management=AUTO 
+undo_tablespace=UNDOTBS1 
+remote_login_passwordfile=EXCLUSIVE
